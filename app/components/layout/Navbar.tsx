@@ -36,6 +36,7 @@ export default function Navbar() {
     { name: 'Docs', path: '/docs' },
     { name: 'About', path: '/about' },
     { name: 'Policy', path: '/privacy'},
+    { name: 'Terms', path: '/terms'},
   ];
 
   const isActivePath = (path: string) => pathname === path;
