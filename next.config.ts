@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: '10mb', // or whatever size you need
       allowedOrigins: [
         'localhost:3000', 
-        'https://prompt-pro-tawny.vercel.app/'
+        'https://prompt-pro-tawny.vercel.app'
       ],
     },
   },
@@ -48,7 +48,7 @@ const nextConfig: NextConfig = {
   },
   
   images: {
-    domains: ['cloud.appwrite.io', 'localhost'],
+    domains: ['cloud.appwrite.io', 'localhost', 'https://prompt-pro-tawny.vercel.app'],
   }
 };
 
