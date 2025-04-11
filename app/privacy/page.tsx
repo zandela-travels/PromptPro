@@ -8,40 +8,78 @@ export default function PrivacyPage() {
           <h1 className="text-4xl font-bold sm:text-5xl bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent mb-8">
             Privacy Policy
           </h1>
-          
+
           <div className="prose prose-lg dark:prose-invert">
             <p className="text-gray-600 dark:text-gray-300">
               Last updated: {new Date().toLocaleDateString()}
             </p>
 
-            <h2>Information We Collect</h2>
             <p>
-              We collect information you provide directly to us when you create an account,
-              use our services, or communicate with us.
+              At <strong>PromptPro</strong>, we are committed to protecting the privacy and security of our users’
+              personal information. This Privacy Policy outlines how we collect, use, and safeguard your information
+              when you use our platform. By using PromptPro, you consent to the practices described in this policy.
             </p>
+
+            <h2>Information We Collect</h2>
+            <ul>
+              <li>Personal identification information (name, email) provided during sign up or communication.</li>
+              <li>Payment information handled securely by third-party payment processors.</li>
+              <li>Usage and technical data such as IP address, browser type, and session activity.</li>
+            </ul>
 
             <h2>How We Use Your Information</h2>
             <ul>
-              <li>To provide and maintain our Service</li>
-              <li>To notify you about changes to our Service</li>
-              <li>To provide customer support</li>
-              <li>To gather analysis or valuable information to improve our Service</li>
+              <li>To provide and maintain your account and prompt usage tracking.</li>
+              <li>To communicate important updates, notifications, or support responses.</li>
+              <li>To analyze usage patterns and improve features.</li>
+              <li>To detect and prevent abuse, spam, or unauthorized activity.</li>
             </ul>
+
+            <h2>Information Sharing</h2>
+            <p>
+              We do not sell or rent your information. We may share data with trusted service providers or as required
+              by law. These parties are obligated to keep your information secure and confidential.
+            </p>
 
             <h2>Data Security</h2>
             <p>
-              The security of your data is important to us but remember that no method of
-              transmission over the Internet or method of electronic storage is 100% secure.
+              We implement industry-standard security practices to protect your information. However, no method of
+              transmission over the internet or electronic storage is 100% secure.
+            </p>
+
+            <h2>Cookies and Tracking</h2>
+            <p>
+              We use cookies to enhance user experience and collect analytics. You can disable cookies via your browser,
+              but some features may be affected.
             </p>
 
             <h2>Changes to This Privacy Policy</h2>
             <p>
-              We may update our Privacy Policy from time to time. We will notify you of any
-              changes by posting the new Privacy Policy on this page.
+              We may update this policy. Any changes will be posted on this page. We recommend reviewing it periodically.
+            </p>
+
+            <h2>Contact Us</h2>
+            <p>
+              If you have any questions about this Privacy Policy, please contact us through the contact page on our
+              website.
+            </p>
+
+            <h2>Refund Policy</h2>
+            <p>
+              At <strong>PromptPro</strong>, we offer both free and paid plans. Due to the nature of digital services and instant
+              plan activation, all purchases are considered final. However, we may offer refunds in the following cases:
+            </p>
+            <ul>
+              <li>If you were charged incorrectly due to a technical error.</li>
+              <li>If you cancel your subscription within 24 hours of purchase and have not used any prompts.</li>
+            </ul>
+            <p>
+              If you believe you’re eligible for a refund, please contact our support team with details. Refund decisions
+              are made at our discretion and may take 5–10 business days to process.
             </p>
           </div>
         </div>
       </div>
     </Layout>
   );
-} 
+}

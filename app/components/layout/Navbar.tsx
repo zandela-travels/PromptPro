@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { FiMenu, FiX, FiUser, FiLogOut } from 'react-icons/fi';
-import { signOutUser } from '../../lib/actions/user.actions';
 import { useAuth } from '@/app/context/AuthContext';
 import Link from 'next/link';
 
@@ -36,6 +35,7 @@ export default function Navbar() {
     { name: 'Pricing', path: '/pricing' },
     { name: 'Docs', path: '/docs' },
     { name: 'About', path: '/about' },
+    { name: 'Policy', path: '/privacy'},
   ];
 
   const isActivePath = (path: string) => pathname === path;
