@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: '10mb', // or whatever size you need
       allowedOrigins: [
         'localhost:3000', 
-        'your-production-domain.com'
+        'https://prompt-pro-tawny.vercel.app/'
       ],
     },
   },
