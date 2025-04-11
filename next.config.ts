@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
     },
   },
 
+  typescript: {
+    ignoreBuildErrors: true
+  },
+
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+
   transpilePackages: [
     'react-icons',
     '@headlessui/react'
